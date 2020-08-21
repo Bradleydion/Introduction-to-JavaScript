@@ -15,16 +15,18 @@ for (let i= 0; i < 5; i++)
 
 
 //Task c: Convert string ("1999") to integer (1999)  (no function required) // hint look up the Number method
-    let year = "1999"; 
 
-    var value = Number(year); 
+    var value = Number("1999"); 
      console.log(value); 
 
 
 
 //Task d: Write a function to multiply a*b 
 
-
+var a = 8
+var b = 10
+var c = a * b
+console.log(c)
 
 
 
