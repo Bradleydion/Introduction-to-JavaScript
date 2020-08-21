@@ -1,14 +1,17 @@
 /************************************************************** Task 1: Warm-up! **************************************************************/
 //Task a: declare a variable called votingAge, console log true if age > 18 (no function required)
 
-
-
-
+const votingAge="25"
+if (votingAge > 18){
+    console.log("Can Vote")
+}
+else if (votingAge < 18){
+    console.log("Can Not Vote")
+}
 
 //Task b: declare a variable and then use a conditional to change the value of that variable based on the value assigned to a second variable (no function required)
 
-
-
+for (let i= 0; i < 5; i++)
 
 
 //Task c: Convert string ("1999") to integer (1999)  (no function required) // hint look up the Number method
