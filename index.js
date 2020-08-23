@@ -62,8 +62,26 @@ dogYears()
 
 // when you are finished invoke your function with the weight of 15 lbs and the age of 1 year - if your calculations are correct your result should be 0.44999999999999996
   
+let dogsAge = "1"
+let dogsWeight = "15"
 
-
+function feeding(){
+    let food="";
+    console.log(food)
+if (dogsWeight <= 5) { 
+    food = dogsWeight*.05   
+}
+else if (dogsWeight >= 6 && dogsWeight <=10){
+    food = dogsWeight*.04
+}
+else if (dogsWeight >= 11 && dogsWeight<= 15){
+    food = dogsWeight*.03
+}
+else if (dogsWeight >15){
+    food = dogsWeight*.02
+}
+}
+feeding()
 
 
 /************************************************************** Task 4 **************************************************************/
