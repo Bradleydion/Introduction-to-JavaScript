@@ -99,12 +99,21 @@ feeding()
 //a. KM to Miles - should take the number of kilometers and convert it to the equal number of miles
 
 
-
+let kilometers= "45"
+function kMconversion() {
+    let miles= kilometers*.62137119
+    console.log(Math.round(miles))
+}
+kMconversion()
 
 
 //b. Feet to CM - should take the number of feet and convert it to the equal number of centimeters
-  
-
+  let feet ="205"
+  function cm(){
+      let centimeters=feet*30.48
+      console.log(Math.round(centimeters))
+  }
+  cm()
 
 
 
