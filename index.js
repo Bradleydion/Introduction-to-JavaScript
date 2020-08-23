@@ -66,8 +66,7 @@ let dogsAge = "1"
 let dogsWeight = "15"
 
 function feeding(){
-    let food="";
-    console.log(food)
+    let food='';
 if (dogsWeight <= 5) { 
     food = dogsWeight*.05   
 }
@@ -80,6 +79,7 @@ else if (dogsWeight >= 11 && dogsWeight<= 15){
 else if (dogsWeight >15){
     food = dogsWeight*.02
 }
+console.log(food)
 }
 feeding()
 
