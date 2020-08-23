@@ -138,6 +138,23 @@ bottleA--;
 //70s should be Cs 
 //60s should be D 
 //and anything below 60 should be F
+function gradeing(gradePoint){
+if (gradePoint>=90) {
+    console.log("A")
+}
+else if (gradePoint >=80 && gradePoint <90){
+    console.log("B")
+}
+else if (gradePoint >=70 && gradePoint <80){
+    console.log("C")
+}else if (gradePoint >=60 && gradePoint <70){
+    console.log("D")
+}
+else if (gradePoint <60){
+    console.log("F")
+}
+}
+gradeing(75)
   
 
   
