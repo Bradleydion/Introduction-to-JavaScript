@@ -85,12 +85,46 @@ feeding()
 
 
 /************************************************************** Task 4 **************************************************************/
-// Rock, Paper, Sissors
+// Rock (0), Paper (1), Sissors (2)
 // Your function should take a string (either rock paper or sissors)
 // it should return you won or you lost based on the rules of the game (you may need to look up the rules if you have not played before)
 // use math.random to determine the computers choice 
 // hint while you can complete this with only conditionals based on strings it may help to equate choice to a number 
 
+function annoyingGame(userMove){
+ let computerMove = Math.floor(Math.random()*3)
+//  computer has rock 
+ if (computerMove =0 && userMove =0){
+    console.log ("draw")   
+ }
+else if (computerMove =0 && userMove =1){
+    console.log ("win")
+}
+else if (computerMove =0 && userMove =2){
+    console.log ("lose")
+}
+// computer has paper
+else if (computerMove =1 && userMove =0){
+    console.log ("win")   
+ }
+else if (computerMove =1 && userMove =1){
+    console.log ("draw")
+}
+else if (computerMove =1 && userMove =2){
+    console.log ("lose")
+}
+// computer has sissors
+else if (computerMove =2 && userMove =0){
+    console.log ("win")   
+ }
+else if (computerMove =2 && userMove =1){
+    console.log ("lose")
+}
+else if (computerMove =2 && userMove =2){
+    console.log ("draw")
+}
+ }
+ annoyingGame(1)
   
   
 
