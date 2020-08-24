@@ -94,37 +94,37 @@ feeding()
 function annoyingGame(userMove){
  let computerMove = Math.floor(Math.random()*3)
 //  computer has rock 
- if (computerMove =0 && userMove =0){
-    console.log ("draw")   
+ if (computerMove ==0 && userMove ===0){
+    console.log ("Draw")   
  }
-else if (computerMove =0 && userMove =1){
-    console.log ("win")
+else if (computerMove ===0 && userMove ===1){
+    console.log ("Win")
 }
-else if (computerMove =0 && userMove =2){
-    console.log ("lose")
+else if (computerMove ===0 && userMove ===2){
+    console.log ("Lose")
 }
 // computer has paper
-else if (computerMove =1 && userMove =0){
-    console.log ("win")   
+else if (computerMove ===1 && userMove ===0){
+    console.log ("Win")   
  }
-else if (computerMove =1 && userMove =1){
-    console.log ("draw")
+else if (computerMove ===1 && userMove ===1){
+    console.log ("Draw")
 }
-else if (computerMove =1 && userMove =2){
-    console.log ("lose")
+else if (computerMove ===1 && userMove ===2){
+    console.log ("Lose")
 }
 // computer has sissors
-else if (computerMove =2 && userMove =0){
-    console.log ("win")   
+else if (computerMove ===2 && userMove ===0){
+    console.log ("Win")   
  }
-else if (computerMove =2 && userMove =1){
-    console.log ("lose")
+else if (computerMove ===2 && userMove ===1){
+    console.log ("Lose")
 }
-else if (computerMove =2 && userMove =2){
-    console.log ("draw")
+else if (computerMove ===2 && userMove ===2){
+    console.log ("Draw")
 }
  }
- annoyingGame(1)
+ annoyingGame(0)
   
   
 
